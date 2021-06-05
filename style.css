@@ -1,0 +1,187 @@
+/* div :first-child :last-child {у первого ребенка выбрать последнего
+	color: red;
+} */
+
+/* last edited 05.07.21 */
+/* высоста изображений строго 460px */
+html {
+	height: 100%;
+}
+body {
+		margin: 0;
+		display: flex; 
+		flex-direction: column;
+		height: 100%;
+		background-color: #E5E5E5;
+}
+header {
+		flex: 0 0 auto;
+}
+
+main {
+		flex: 1 0 auto;
+}
+
+
+.slideshow-container {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-wrapper {
+    max-width: 925px;
+    width: 100%;
+    height: 460px;
+    position: relative;
+    box-shadow: 10px 10px 44px -10px rgba(0,0,0,0.75);
+}
+
+#btn-prev, #btn-next {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    background-color: gray;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: opacity .2s ease-in-out;
+}
+
+#btn-prev:hover, #btn-next:hover {
+    opacity: 0.6;
+}
+
+
+#btn-next {
+    left: auto;
+    right: 0;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+
+
+.dots-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.dot.active {
+    background-color: #000000;
+}
+
+span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: gray; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+span:last-child{
+    margin-right: 0;
+}
+
+/* styles for info buttons */
+/* max-height of an img is 466px */
+/* better 480 px not to have white spice on the right */
+.slide > button:first-child {
+	width: 100%;
+	height: 100%;
+	border: none;
+	background-repeat: no-repeat;
+}
+
+.slide > button:last-child:focus {
+	outline: none;
+}
+
+.slide > button:last-child {
+	background: rgba(255,255,255,0.7);
+	width: 100%;
+	height: 100%;
+	border: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	font-family: Times New Roman;
+	font-size: 20px;
+	display: none;
+}
+
+ul {
+	width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.big_list {
+	width: 825px;
+	font-size: 15px;
+}
+
+
+.insane {
+	background: url(images/insane.png);
+}
+
+.glo3d {
+	background: url(images/3dglo.png);
+}
+
+.glo_project1 {
+	background: url(images/glo_project1.png);
+}
+
+.scandi {
+	background: url(images/scandi.png);
+}
+
+.logitech {
+	background: url(images/logitech.png);
+	background-position: center;
+}
+.summer_trip {
+	background: url(images/summer_trip.png);
+}
+
+
+.your_house {
+	background: url(images/your_house.png);
+	background-position: center;
+}
+
+.odysseum {
+	background: url(images/Odysseum.png);
+	background-position: center;
+	background-position-y: 1px;
+}
+
+.photoshop {
+	background: url(images/Photoshop.png) no-repeat;
+	width: 925px;
+	background-position: center;
+	background-position-y: -2px;
+
+}
+
+
+.slide > button:last-child.show {
+	display: block;
+}
+	
+
+footer{
+	flex: 0 0 auto;
+}
