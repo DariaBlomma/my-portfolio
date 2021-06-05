@@ -28,9 +28,9 @@ showInfo('.glo_project1', '.glo_project1_info', 'https://dariablomma.github.io/G
 
 showInfo('.scandi', '.scandi_info', 'https://dariablomma.github.io/HTMLAcademy.-Marathon-3.0/');
 
-showInfo('.logitech', '.logitech_info', '/logitech');
+showInfo('.logitech', '.logitech_info', 'http://f0497458.xsph.ru/logitech/');
 
-showInfo('.your_house', '.house_info', '/your_house/main_page.html');
+showInfo('.your_house', '.house_info', 'http://f0497458.xsph.ru/your_house/main_page.html');
 
 showInfo('.summer_trip', '.trip_info', 'https://mega.nz/file/TzoQjThR#O4b4OtFfjLxe4YL_C9wuzl1PCDiSWUdoklvYwZUpQN4');
 

@@ -15,6 +15,8 @@ for (let i = 0; i < slides.length; i++) {
 }
 
 const dots = document.querySelectorAll('.dot');
+dots[0].className = 'dot active';
+slides[0].className = 'slide active';
 
 function activeSlide() {
     for (const slide of slides) {
