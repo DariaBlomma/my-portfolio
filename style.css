@@ -131,6 +131,13 @@ ul {
 	font-size: 15px;
 }
 
+.formMedods {
+	background: url(images/formMedods.png);
+}
+
+.simonGame {
+	background: url(images/simonGame.png);
+}
 
 .insane {
 	background: url(images/insane.png);

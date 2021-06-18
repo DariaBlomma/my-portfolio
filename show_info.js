@@ -18,7 +18,9 @@ function showInfo(sel1, sel2, link) {
     });
 }
 
+showInfo('.formMedods', '.formMedods_info', 'https://dariablomma.github.io/form_medods/');
 
+showInfo('.simonGame', '.simonGame_info', 'https://dariablomma.github.io/simon-game/');
 
 showInfo('.insane', '.insane_info', 'https://dariablomma.github.io/insane-diploma/src/layout/');
 
